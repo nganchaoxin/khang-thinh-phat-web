@@ -10852,17 +10852,18 @@ h6 {
 }
 
 /* logo */
-/* .logo {
+.logo {
   text-align: left;
 
 }
 
 .logo img {
-  max-width: 140px;
+  max-width: 150px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  height: auto;
-} */
+  height: 150px;
+}
+
 /* img */
 .home-img-box {
   width: 320px;
