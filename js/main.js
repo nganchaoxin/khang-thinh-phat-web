@@ -68,18 +68,14 @@
             itemSelector: '.portfolio-item',
             percentPosition: true,
             layoutMode: 'masonry',
-
         });
         $('#portfolio-flters li').on('click', function () {
-
             $("#portfolio-flters li").removeClass('active');
             $(this).addClass('active');
-
             portfolioIsotope.isotope({
                 filter: $(this).data('filter')
             });
             return false;
-
         });
     });
 
